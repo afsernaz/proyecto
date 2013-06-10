@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html Lang="es">
+	<head>
+	 <meta charset="utf-8">
+	 <link rel="stylesheet" href="sheetstyle.css">
+	 <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+	 <script src="scriptprincipal.js"></script>
+	</head>
+	<body>
+	  <div id="contenido">
+	    <header>
+		   <hgroup><h1>Amarres de Amor y Limpias</h1></hgroup>
+	 <nav>
+	    <ul>
+			<li> <a href="index.html">Inicio</a> </li>
+			<li> <a href="testimonios.html"> Quienes somos<a></li>			
+			<li><a href="formulario.html"> Contactenos</a></li>
+			
+		</ul>
+	  </nav>
+		</header>
+		<section>
+			<div id="textoPr">
+				
+				  <hgroup>
+				    <h1>Contactanos</h1>
+				  </hgroup>
+				 <form>
+				    <label for="nombre">Nombre:</label>
+					<input type="text" id="nombre" placeholder="Escribe tu nombre" required/>
+					<label for="mail">Email:</label>
+					<input type="email" id="mail" placeholder="Escribe tu email" required/>
+					<label for="edad" >Edad:</label>
+					<input type="number" id="edad" min="0"/>
+					<label for="grade">Calificacion:</label>
+					<input type="range" id="grade" min="0" max="10" value="0"/>
+					<label for="fecha">Fecha:</label>
+					<input type="date" id="fecha"/>
+					<input type="submit" value="Enviar" id="btnSubmit"/>
+				 </form>
+				
+			</div>
+		</section>
+	  </div>
+	  <footer>
+		<canvas id="miCanvas"> </canvas>
+	  </footer>
+	  
+	</body>
+</html>
